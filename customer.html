@@ -4,10 +4,14 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="media-query.css">
+      
 </head>
 <body>
             <h1>page customer..</h1>
-              <!-- footer -->
+        
+      <!-- footer -->
       <footer>
             <div class="container flex footer-con">
                   <a href="" class="company-logo">
@@ -43,6 +47,26 @@
             </div>
       </footer>
 
+      <!-- sub footer -->
+       <div class="subfooter">
+            <div class="container flex subfooter-container">
+                  <a href="#" class="hover-link">Privacy policy</a>
+                  <a href="#" class="hover-link">Terms & conditions</a>
+                  <a href="#" class="hover-link">Security information</a>
+                  <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+       </div>
+      <script src="https://kit.fontawesome.com/e77b22391d.js" crossorigin="anonymous"></script>
+
+      <script>
+            const toggleButton = document.getElementById('nav-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            toggleButton.addEventListener('click',() =>{
+                  navLinks.classList.toggle('active');
+            })
+      </script>
             
 </body>
 </html>
